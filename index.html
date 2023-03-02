@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monochrome</title>
+    <!-- Tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="navbar bg-white rounded-none">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Sample</a></li>
+              <li><a>Features</a></li>
+              <li><a>Layouts</a></li>
+              <li><a>Our Shop</a></li>
+              <li><a>Buy Theme</a></li>
+            </ul>
+          </div>
+          <a
+            class="btn btn-ghost normal-case font-[Aboreto] font-extrabold text-2xl lg:text-4xl"
+            >M</a
+          >
+        </div>
+        <div class="navbar-end hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-sm font-semibold">Sample</a></li>
+            <li><a class="text-sm font-semibold">Features</a></li>
+            <li><a class="text-sm font-semibold">Layouts</a></li>
+            <li><a class="text-sm font-semibold">Our Shop</a></li>
+            <li><a class="text-sm font-semibold">Buy Theme</a></li>
+          </ul>
+
+          <button class="btn btn-ghost btn-circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <div
+      class="min-h-screen bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')]"
+    >
+      <div class="bg-black min-h-screen flex justify-center opacity-90">
+        <div
+          class="text-white flex justify-center flex-col p-8 lg:p-36 lg:pr-[35rem]"
+        >
+          <p class="lg:text-5xl text-2xl font-bold py-4">
+            We crush <br />
+            minimal <br />
+            design.
+          </p>
+          <p class="text-sm lg:text-lg">
+            Monochrome is a creative agency based in Chicago. We developed the
+            Genesis Framework and build mobile-optmized themes for Wordpress.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Second -->
+    <div>
+      <div
+        class="lg:px-36 px-4 py-8 lg:py-28 py-0 my-0 flex gap-10 flex-col justify-between"
+      >
+        <div>
+          <p class="lg:text-4xl text-2xl font-bold">We build experience.</p>
+
+          <p class="lg:text-lg text-base">
+            A minimalist approach is the only way to design a website
+          </p>
+        </div>
+        <div>—</div>
+        <div class="flex flex-col gap-10 lg:flex-row">
+          <div class="flex flex-col gap-4 justify-between">
+            <div>
+              <p class="text-xl font-bold uppercase">Design</p>
+            </div>
+            <div>
+              <p class="leading-7">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus debitis ut ipsam dignissimos fuga esse.
+              </p>
+            </div>
+            <div>
+              <button class="bg-black rounded-none text-white p-2">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4 justify-between">
+            <div>
+              <p class="text-xl font-bold uppercase">Content</p>
+            </div>
+            <div>
+              <p class="leading-7">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus debitis ut ipsam dignissimos fuga esse.
+              </p>
+            </div>
+            <div>
+              <button class="bg-black rounded-none text-white p-2">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4 justify-between">
+            <div>
+              <p class="text-xl font-bold uppercase">Strategy</p>
+            </div>
+            <div>
+              <p class="leading-7">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatibus debitis ut ipsam dignissimos fuga esse.
+              </p>
+            </div>
+            <div>
+              <button class="bg-black rounded-none text-white p-2">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Third -->
+    <div
+      class="lg:h-96 bg-[url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')]"
+    >
+      <div class="bg-black lg:h-96 opacity-90 flex justify-start">
+        <div
+          class="text-white p-16 lg:p-36 flex flex-col gap-10 items-center lg:items-start justify-evenly"
+        >
+          <div>
+            <p
+              class="lg:text-5xl text-2xl font-bold pb-2 text-center lg:text-left"
+            >
+              We design brands.
+            </p>
+            <p class="text-center lg:text-left">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex optio
+              eum atque nam suscipit accusantium?
+            </p>
+          </div>
+          <div>—</div>
+
+          <div>
+            <div
+              class="flex flex-col flex-wrap font-[Aboreto] justify-center items-center lg:justify-start lg:flex-row gap-4"
+            >
+              <div>les avenirs</div>
+              <div>avec'simple</div>
+              <div>WHITESPACE</div>
+              <div>minimalism</div>
+              <div>barcelona33</div>
+              <div>smoothVILLA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fourth -->
+    <div class="lg:p-36 md:p-16 px-4 py-10 flex flex-col gap-10 justify-evenly">
+      <div>
+        <p class="lg:text-5xl text-2xl font-bold mb-2">We create stories.</p>
+        <p class="lg:text-xl text-base">
+          A killer narative will turn your readers into raving fans.
+        </p>
+      </div>
+      <div>—</div>
+      <div class="flex flex-col gap-16">
+        <div class="flex flex-col md:flex-row lg:flex-row gap-16">
+          <div class="flex flex-col gap-2">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt=""
+                class="grayscale"
+              />
+            </div>
+            <div class="uppercase font-bold text-lg">
+              overcoming creative block
+            </div>
+            <div class="font-medium">Barian Garden - May 1, 2017</div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt=""
+                class="grayscale"
+              />
+            </div>
+            <div class="uppercase font-bold text-lg">
+              overcoming creative block
+            </div>
+            <div class="font-medium">Barian Garden - May 1, 2017</div>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row lg:flex-row gap-16">
+          <div class="flex flex-col gap-2">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt=""
+                class="grayscale"
+              />
+            </div>
+            <div class="uppercase font-bold text-lg">
+              overcoming creative block
+            </div>
+            <div class="font-medium">Barian Garden - May 1, 2017</div>
+          </div>
+          <div class="flex flex-col gap-2">
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt=""
+                class="grayscale"
+              />
+            </div>
+            <div class="uppercase font-bold text-lg">
+              overcoming creative block
+            </div>
+            <div class="font-medium">Barian Garden - May 1, 2017</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fifth -->
+    <div
+      class="bg-gradient-to-r from-blue-500 to-cyan-500 flex flex-col lg:flex-row p-3 lg:p-10 text-center justify-center gap-4 items-center"
+    >
+      <div class="font-normal text-base lg:text-xl text-white">
+        Hit the ground running with the minimalist look.
+      </div>
+      <div>
+        <button
+          class="bg-white rounded-none text-blue-700 text-xs lg:text-sm p-1 lg:p-3"
+        >
+          LEARN MORE
+        </button>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer
+      class="bg-black text-white flex flex-col justify-evenly gap-4 items-center py-10"
+    >
+      <div><p class="lg:text-5xl font-[Aboreto]">M</p></div>
+      <div>
+        <p class="text-xs lg:text-lg text-center">
+          Handcrafted with ❤️ in Chicago • Powered by StudioPress
+        </p>
+      </div>
+      <div class="flex flex-row gap-4 text-sm font-[Aboreto]">
+        <a href="">FACEBOOK</a>
+        <a href="">TWITTER</a>
+        <a href="">INSTAGRAM</a>
+      </div>
+    </footer>
+  </body>
+</html>
